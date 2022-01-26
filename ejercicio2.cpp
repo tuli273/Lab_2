@@ -17,7 +17,7 @@ int main()
     double *promedio=&a;
     double *suma=&b;
 
-    fun_c(arreglo,5,promedio,suma);
+    fun_c(arreglo,10,promedio,suma);
     cout<<endl<<"EL promedio del arreglo es: "<<*promedio<<endl;
     return 0;
 }
