@@ -18,7 +18,7 @@ int main()
     int n=0;
     int posibles=0 , factorial2n=0;
 
-    cout << "Ingrese un numero n: ";cin >> n;
+    cout << "Ingrese un numero entero: ";cin >> n;
     if(n>=0){
 
         factorial2n= Factorialn(2*n);
